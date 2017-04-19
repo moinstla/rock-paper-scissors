@@ -11,6 +11,8 @@ class String
       "win"
     elsif beats[player_1]=="rock"
       "win"
+    elsif beats[player_1]=="paper"
+      "win"
     end
   end
 end
