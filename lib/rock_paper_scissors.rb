@@ -9,6 +9,8 @@ class String
 
     if beats[player_1]=="scissors"
       "win"
+    elsif beats[player_1]=="rock"
+      "win"
     end
   end
 end
