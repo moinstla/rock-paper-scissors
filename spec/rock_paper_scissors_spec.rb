@@ -16,4 +16,8 @@ describe('String#rock_paper_scissors') do
     expect('scissors'.rock_paper_scissors()).to(eq("win"))
   end
 
+  it("returns tie if the key and the value are the same") do
+    expect('rock'.rock_paper_scissors()).to(eq("tie"))
+  end
+
 end
